@@ -1,0 +1,68 @@
+html {
+  @apply text-base;
+}
+
+body {
+  @apply bg-body font-primary font-normal leading-relaxed text-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary font-bold leading-tight text-dark;
+}
+
+h1,
+.h1 {
+  @apply font-primary text-h1-sm md:text-h1;
+}
+
+h2,
+.h2 {
+  @apply text-h2-sm md:text-h2;
+}
+
+h3,
+.h3 {
+  @apply text-h3-sm md:text-h3;
+}
+
+h4,
+.h4 {
+  @apply text-h4;
+}
+
+h5,
+.h5 {
+  @apply text-h5;
+}
+
+h6,
+.h6 {
+  @apply text-h6;
+}
+
+code {
+  @apply before:hidden after:hidden;
+}
+
+
+[type='text'], input:where(:not([type])), [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #2d4574;
+  border-width: 1px;
+  border-radius: 10px;
+  padding-top: 0.5rem;
+  padding-right: 5.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: -0.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-shadow: 0 0 #ea5f5f00;
+}
